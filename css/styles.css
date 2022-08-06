@@ -19,10 +19,10 @@ p {
 }
 
 .croissant-photo {
-  max-width: 100%;
+  max-width: 50%;
   border-radius: 10px;
   display: block;
-  margin: 30px auto;
+  margin: 0px auto;
 }
 
 footer {
