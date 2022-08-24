@@ -21,7 +21,7 @@ p {
 .croissant-photo {
   max-width: 50%;
   border-radius: 10px;
-  display: block;
+  display: flex;
   margin: 0px auto;
 }
 
@@ -35,4 +35,18 @@ footer a {
   text-decoration: none;
   font-weight: bolder;
   font-variant: small-caps;
+}
+
+@media (max-width: 576px) {
+
+  .croissant-photo {
+    transform: rotate(-90deg);
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 70px 0;
+
+  }
+  h1 {
+    font-size: 40px;
+  }
 }
